@@ -37,6 +37,7 @@ const SideNav = () => (
       </span>
     </a>
     <button
+      id="sideNav-btn"
       className="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
@@ -45,9 +46,9 @@ const SideNav = () => (
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span className="navbar-toggler-icon" id="page-top"></span>
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarResponsive">
+    <div className="collapse navbar-collapse" id="navbarResponsivex">
       <ul className="navbar-nav">
         <li className="nav-item">
           <a className="nav-link js-scroll-trigger" href="#about">

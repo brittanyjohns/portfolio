@@ -23,8 +23,8 @@ const App = () => (
                 <span className="text-primary">Johns</span>
               </h1>
               <div className="subheading mb-5">
-                Lagrange, Ohio 44050 · (440) 225-2432 ·
-                <a href="mailto:name@email.com">bhannajohns@gmail.com</a>
+                Lagrange, Ohio &nbsp; · &nbsp; (440) 225-2432 &nbsp;· &nbsp;
+                <a href="mailto:bhannajohns@gmail.com">bhannajohns@gmail.com</a>
               </div>
               <p className="lead mb-5">
                 Tenacious, full stack software developer with an unstoppable

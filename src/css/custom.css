@@ -1,4 +1,42 @@
 .project {
   padding: 10px;
-  border: 10px solid rgb(0, 0, 0);
+  /* border: 3px solid rgb(0, 0, 0); */
+  max-height: 500px;
+  min-height: 500px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* height: calc(100% - 3.5rem); */
+}
+.project-body {
+  padding: 10px;
+  padding-top: 15%;
+  min-height: 460px;
+  /* border: 3px solid rgb(0, 0, 0); */
+  max-height: 400px;
+  overflow: hidden;
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* height: calc(100% - 3.5rem); */
+}
+
+.project-img {
+  max-height: 200px;
+  margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.project-icon {
+  max-height: 200px;
+  margin-bottom: 15px;
+}
+.project-text {
+  margin-top: 10px;
+}
+
+.project .btn {
+  color: #ffffff;
+}
+
+.hide {
+  display: none;
 }
