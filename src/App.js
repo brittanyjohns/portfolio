@@ -28,11 +28,13 @@ const App = () => (
               </div>
               <p className="lead mb-5">
                 Tenacious, full stack software developer with an unstoppable
-                desire to learn everything possible and a passion for problem
-                solving. Agile to the core, over the last five years, I've moved
-                around from product to product - based on the needs of the
-                company. With an innate ability to learn on the fly, I'm able to
-                jump to where I'm needed & welcome every opportunity.
+                desire to learn and a passion for problem solving. Agile to the
+                core, over the last six years, I've moved around from product to
+                product - based on the needs of the company. With an innate
+                ability to learn on the fly, I'm able to jump to where I'm
+                needed & welcome every opportunity. I'm self taught, starting my
+                career from Ruby On Rails tutorials back in 2015, so I'll never
+                shy away from a challenge or opportunity to learn something new.
               </p>
               <div className="social-icons">
                 <a
@@ -63,31 +65,94 @@ const App = () => (
               <h2 className="mb-5">Experience</h2>
               <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
-                  <h3 className="mb-0">Software Developer</h3>
-                  <div className="subheading mb-3">VHT</div>
-                  <p>
-                    Develop, deploy & maintain multiple production applications.
-                    Assisted with rearchitecting the
-                    authentication/authorization platform using the Serverless
-                    framework & AWS services such as Cognito, Lambda &
-                    CloudFormation. Built APIs using GraphQL & DynamoDB. Backend
-                    features using Node.js, Typescript & Ruby. Frontend UI work
-                    using ReactJS. Implement CI workflows using CircleCI.
-                  </p>
+                  <h3 className="mb-0">Software Developer II</h3>
+                  <div className="subheading mb-3">
+                    Mindful (acquired by Medallia)
+                  </div>
+                  <ul>
+                    <li>
+                      Build & deploy multiple production applications to new
+                      environments that meet FedRamp security standards using
+                      Ruby & Typescript.
+                    </li>
+                    <li>
+                      Develop features & fix bugs within the callback
+                      application which is comprised of multiple Ruby On Rails
+                      applications.
+                    </li>
+                    <li>
+                      Rearchitected the data lake & pipeline using AWS CDK
+                      reducing the time & complexity needed to configure &
+                      deploy a new service using Typescript.
+                    </li>
+                    <li>
+                      Established event based routing & communication between
+                      multiple applications using AWS CDK & Event Bridge using
+                      Ruby & Typescript.
+                    </li>
+
+                    <li>
+                      Designed data migration strategy to move enterprise client
+                      data between production environments using AWS S3, SQS, &
+                      Lambda, along with CircleCI integration & basic scripting.{" "}
+                    </li>
+                    <li>
+                      Use Jira & other tools to track & prioritize ongoing
+                      projects.
+                    </li>
+                  </ul>
                 </div>
                 <div className="flex-shrink-0">
-                  <span className="text-primary">June 2018 - Present</span>
+                  <span className="text-primary">October 2021 - Present</span>
+                </div>
+              </div>
+              <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div className="flex-grow-1">
+                  <h3 className="mb-0">Software Developer</h3>
+                  <div className="subheading mb-3">Mindful (formerly VHT)</div>
+                  <ul>
+                    <li>
+                      Develop, deploy & maintain multiple production
+                      applications using primarily Ruby, Ruby On Rails, Angular
+                      & React.
+                    </li>
+                    <li>
+                      Assisted with rearchitecting the
+                      authentication/authorization platform using the Serverless
+                      framework & AWS services such as Cognito, Lambda &
+                      CloudFormation.
+                    </li>
+                    <li>
+                      Built APIs using GraphQL & DynamoDB. Backend features
+                      using Node.js, Typescript & Ruby. Frontend UI work using
+                      ReactJS.{" "}
+                    </li>
+                    <li>Implement CI workflows using CircleCI.</li>
+                  </ul>
+                </div>
+                <div className="flex-shrink-0">
+                  <span className="text-primary">June 2018 - October 2021</span>
                 </div>
               </div>
               <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
                   <h3 className="mb-0">Associate Software Developer</h3>
-                  <div className="subheading mb-3">VHT</div>
-                  <p>
-                    Worked as development support for customer escalations &
-                    internal troubleshooting. Implemented feature enhancements
-                    written in C++ & Erlang legacy code.
-                  </p>
+                  <div className="subheading mb-3">Mindful (formerly VHT)</div>
+                  <ul>
+                    <li>
+                      Developed new features & fixed bugs for a production
+                      application using Ruby On Rails & Sinatra frameworks.
+                    </li>
+                    <li>
+                      Worked as development support for customer escalations &
+                      internal troubleshooting.
+                    </li>
+
+                    <li>
+                      Implemented feature enhancements written in C++ & Erlang
+                      legacy code.
+                    </li>
+                  </ul>
                 </div>
                 <div className="flex-shrink-0">
                   <span className="text-primary">August 2017 - June 2018</span>
@@ -96,14 +161,22 @@ const App = () => (
               <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="flex-grow-1">
                   <h3 className="mb-0">Associate Development Intern</h3>
-                  <div className="subheading mb-3">VHT</div>
-                  <p>
-                    Developed web applications that controlled and monitored
-                    client & internal test environments to create a more user
-                    friendly experience. Learned & successfully used APEX to
-                    implement a new Salesforce solution that enabled VHT's
-                    Support Team to work more effectively.
-                  </p>
+                  <div className="subheading mb-3">
+                    VHT <small>(formerly Virtual Hold Technology)</small>
+                  </div>
+                  <ul>
+                    <li>
+                      Developed web applications that controlled and monitored
+                      client & internal test environments to create a more user
+                      friendly experience.
+                    </li>
+
+                    <li>
+                      Learned & successfully used APEX to implement a new
+                      Salesforce solution that enabled VHT's Support Team to
+                      work more effectively.
+                    </li>
+                  </ul>
                 </div>
                 <div className="flex-shrink-0">
                   <span className="text-primary">April 2017 - August 2017</span>
